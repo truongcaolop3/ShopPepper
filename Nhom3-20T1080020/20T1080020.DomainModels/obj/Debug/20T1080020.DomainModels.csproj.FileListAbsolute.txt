@@ -1,0 +1,11 @@
+C:\Users\truon\OneDrive\Desktop\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\bin\Debug\20T1080020.DomainModels.dll
+C:\Users\truon\OneDrive\Desktop\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\bin\Debug\20T1080020.DomainModels.pdb
+C:\Users\truon\OneDrive\Desktop\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.csproj.AssemblyReference.cache
+C:\Users\truon\OneDrive\Desktop\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\truon\OneDrive\Desktop\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.dll
+C:\Users\truon\OneDrive\Desktop\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.pdb
+G:\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\bin\Debug\20T1080020.DomainModels.dll
+G:\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\bin\Debug\20T1080020.DomainModels.pdb
+G:\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.csproj.CoreCompileInputs.cache
+G:\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.dll
+G:\Thi-Web\Nhom3-20T1080020\20T1080020.DomainModels\obj\Debug\20T1080020.DomainModels.pdb

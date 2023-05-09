@@ -1,0 +1,64 @@
+﻿@model _20T1080020.Web.Models.EmployeeSearchOutput
+@{
+    Layout = null;
+}
+
+<p style="margin-top:10px">
+    Có <strong>@Model.RowCount</strong> nhà cung cấp trong tổng số <strong>@Model.PageCount</strong> trang
+</p>
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr class="bg-primary">
+                <th style="width: 230px">Ảnh</th>
+                <th>Họ Đệm</th>
+                <th>Tên</th>
+                <th>Ghi chú</th>
+                <th>Sinh nhật</th>
+                <th>Email</th>
+                <th>Tác vụ</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data) // khi acction truyền dữ liệu cho view qua model thì phải khai báo dữ liệu có tên trong acction
+            {
+                <tr>
+                    <td>
+                        <img src="@item.Photo" style="width:225px ; height:225px;  ">
+                    </td>
+                    <td style="width:150px ;" >@item.FirstName</td>
+                    <td style="width:150px ;" >@item.LastName</td>
+                    <td style="width:630px ;">@item.Notes</td>
+                    <td style="width:120px ;">
+                        @string.Format("{0:dd/MM/yyyy}", item.BirthDate)
+                    </td>
+                    <td style="width:120px ;" >@item.Email</td>
+                    <td class="text-right" style="width:70px ;" >
+                        <a href="~/Employee/Edit/@item.EmployeeID" class="btn btn-xs btn-primary">
+                            <i class="fa fa-edit"></i>
+                        </a>
+                        <a href="~/Employee/Delete/@item.EmployeeID" class="btn btn-xs btn-danger">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="text-center">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            if (i == Model.Page)
+            {
+                <li class="active"><a> @i</a></li>
+            }
+            else
+            {
+                <li><a href="javascript:; " onclick="doSearch(@i)">@i </a></li>
+            }
+        }
+
+    </ul>
+</div>
